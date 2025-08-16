@@ -8,3 +8,5 @@ but this is what I have found to work for my setup.
 
 OrderedPointsGHpython is a custom script that can be plugged into GHpython component in grasshopper to take a list of curves and divide it into a list of points and arrange 
 the order such that a printer can follow continuous lines. Those points can be made into G-Code using concatenate and then constructing your own custom G-code parser. 
+
+SaveFile.py allows you to input a file path and save the g-code to that path. There is no standalone component in grasshopper that does this so this was the easiest way to do it. 
