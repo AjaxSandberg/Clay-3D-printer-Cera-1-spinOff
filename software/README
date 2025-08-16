@@ -1,7 +1,7 @@
 This folder is where all software information will be stored. 
 
 Download and Install the mainsail/klipper OS onto a raspberry Pi. Once done, ssh into it to reset passwords and find its IP address. 
-Then navigate to btt.cb1-local in a web browser while the pi is on and running. This will launch mainsail and klipper. Now you can access the files for the printer. 
+Then navigate to btt-cb1.local in a web browser while the pi is on and running. This will launch mainsail and klipper. Now you can access the files for the printer. 
 
 Printer.cfg is the main configuration file for the printer that I am using. You may need to edit specific pin locations if you change the wiring, 
 but this is what I have found to work for my setup. 
