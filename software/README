@@ -10,3 +10,6 @@ OrderedPointsGHpython is a custom script that can be plugged into GHpython compo
 the order such that a printer can follow continuous lines. Those points can be made into G-Code using concatenate and then constructing your own custom G-code parser. 
 
 SaveFile.py allows you to input a file path and save the g-code to that path. There is no standalone component in grasshopper that does this so this was the easiest way to do it. 
+
+GcodeSlicerEXAMPLE.gh is a grasshopper file (the exact one that I use) that slices my lines to Gcode that I can send to my printer. 
+(check out my other git repo to see how to do this in real time) 
